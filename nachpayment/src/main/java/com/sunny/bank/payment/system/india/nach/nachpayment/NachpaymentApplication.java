@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import som.sunny.bank.payment.system.main.MyService;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.sunny")
+@ComponentScan(basePackages = "com.sunny.*")
 public class NachpaymentApplication  {
 
 	public static void main(String[] args) {
